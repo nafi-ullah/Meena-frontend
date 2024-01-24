@@ -8,9 +8,11 @@ import { Hero,
   CustomerReview
 } from './sections/index'
 
+import Nav from './components/Nav'
+
 const App = () => (
   <main className="relative">
-    
+    < Nav />
     <section className="xl:padding-1
     wide:padding-r padding-b">
       <Hero />
